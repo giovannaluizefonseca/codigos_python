@@ -8,7 +8,7 @@ def ordem_valores(valorA, valorB, valorC):
         valorA, valorB
     if valorA > valorC:
         valorA, valorC
-    if valorC < valorB:
+    if valorB > valorC:
         valorB, valorC
     print(f"Os valores em ordem ascendente é {valorA}, {valorB}, {valorB}")
 
