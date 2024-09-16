@@ -23,7 +23,7 @@ numeros = (numero1, numero2, numero3, numero4, numero5, numero6, numero7, numero
 for numero in numeros:
     if numero < 0:
         numeros_negativos += 1  # Equivale a numeros_negativos = numeros_negativos + 1, contando os valores negativos
-    elif numero > 0: #else não
+    elif numero > 0:
         soma_positivos += numero  # Soma os números positivos
 
 print(f"Quantidade de números negativos:{numeros_negativos}")
